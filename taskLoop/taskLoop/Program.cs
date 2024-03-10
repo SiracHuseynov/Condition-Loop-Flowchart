@@ -29,43 +29,39 @@ namespace taskLoop
 
             #region 2.ci tapsirig
             //Verilmis ededin sade ve ya murekkeb oldugunu tapan alqoritm. 
-            //Console.WriteLine("Ededi daxil edin: ");
-            //int eded = Convert.ToInt16(Console.ReadLine());
-            //bool f = true;
+            Console.WriteLine("Ededi daxil edin: ");
+            int eded = Convert.ToInt16(Console.ReadLine());  
+            bool f = true;
 
 
-            //if (eded < 0)
-            //{
-            //    Console.WriteLine("Duzgun deyer daxil edin");
-            //}
-            //else if (eded == 0)
-            //{
-            //    Console.WriteLine("0 ne sadedir, nede murekkeb");
-            //}
-            //else if (eded == 1)
-            //{
-            //    Console.WriteLine("1 ne sadedir, nede murekkeb");
-            //}
-            //else if (eded > 1)
-            //{
-            //    for (int i = 2; i < eded; i++)
-            //    {
-            //        if (eded % i == 0)
-            //        {
-            //            f = false;
-            //            break;
-            //        }
+            if (eded < 0)
+            {
+                Console.WriteLine("Duzgun deyer daxil edin");
+            }
+            else if (eded == 0 || eded == 1)
+            {
+                Console.WriteLine($"{eded} ne sadedir, nede murekkeb");
+            }
+            else if (eded > 1)
+            {
+                for (int i = 2; i < eded; i++)
+                {
+                    if (eded % i == 0)
+                    {
+                        f = false;
+                        break;
+                    }
 
-            //    }
-            //    if (f)
-            //    {
-            //        Console.WriteLine("Eded sadedir!");
-            //    }
-            //    else
-            //    {
-            //        Console.WriteLine("Eded murekkebdir!");
-            //    }
-            //}
+                }
+                if (f)
+                {
+                    Console.WriteLine("Eded sadedir!");
+                }
+                else
+                {
+                    Console.WriteLine("Eded murekkebdir!");
+                }
+            }
 
 
             #endregion
