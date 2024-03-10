@@ -42,7 +42,7 @@ namespace taskLoop
             {
                 Console.WriteLine($"{eded} ne sadedir, nede murekkeb");
             }
-            else if (eded > 1)
+            else
             {
                 for (int i = 2; i < eded; i++)
                 {
