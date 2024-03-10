@@ -1,0 +1,7 @@
+C:\Users\Sirac Huseynov\Desktop\UniTekrar\taskLoop\taskLoop\bin\Debug\taskLoop.exe.config
+C:\Users\Sirac Huseynov\Desktop\UniTekrar\taskLoop\taskLoop\bin\Debug\taskLoop.exe
+C:\Users\Sirac Huseynov\Desktop\UniTekrar\taskLoop\taskLoop\bin\Debug\taskLoop.pdb
+C:\Users\Sirac Huseynov\Desktop\UniTekrar\taskLoop\taskLoop\obj\Debug\taskLoop.csproj.AssemblyReference.cache
+C:\Users\Sirac Huseynov\Desktop\UniTekrar\taskLoop\taskLoop\obj\Debug\taskLoop.csproj.CoreCompileInputs.cache
+C:\Users\Sirac Huseynov\Desktop\UniTekrar\taskLoop\taskLoop\obj\Debug\taskLoop.exe
+C:\Users\Sirac Huseynov\Desktop\UniTekrar\taskLoop\taskLoop\obj\Debug\taskLoop.pdb
